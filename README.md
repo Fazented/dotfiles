@@ -1,5 +1,6 @@
 # dotfiles
 My dotfiles for Arch Linux
+Currently only for gnome, Hyprland configs coming soon
 
 
 ## Gnome
