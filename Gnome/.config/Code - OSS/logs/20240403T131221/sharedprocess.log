@@ -1,0 +1,8 @@
+2024-04-03 13:12:25.679 [info] Deleted uninstalled extension from disk rust-lang.rust-analyzer /home/finn/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1896-linux-x64
+2024-04-03 13:12:25.746 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1896-linux-x64.2134e589.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1896-linux-x64.2134e589.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

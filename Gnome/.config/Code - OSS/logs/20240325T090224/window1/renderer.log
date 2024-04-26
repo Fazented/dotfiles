@@ -1,0 +1,96 @@
+2024-03-25 09:02:25.421 [info] Started local extension host with pid 5485.
+2024-03-25 09:02:25.452 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-25 09:02:25.452 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-03-25 09:02:25.496 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-03-25 09:02:26.136 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2024-03-25 09:02:26.138 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2024-03-25 09:02:26.138 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2024-03-25 09:02:26.138 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2024-03-25 09:02:26.139 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-03-25 09:02:28.044 [info] [perf] Render performance baseline is 32ms
+2024-03-25 10:43:58.053 [error] <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getApplicableRefactors (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:184986:20)
+    at getApplicableRefactors (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183219:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getApplicableRefactors (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:184986:20)
+    at getApplicableRefactors (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183219:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:503003)
+	at v.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:496983)
+	at v.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495837)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495330)
+	at ChildProcess.emit (node:events:514:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-25 10:43:58.075 [error] <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183735:20)
+    at encodedSemanticClassifications-full (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183735:20)
+    at encodedSemanticClassifications-full (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:503003)
+	at v.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:496983)
+	at v.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495837)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495330)
+	at ChildProcess.emit (node:events:514:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

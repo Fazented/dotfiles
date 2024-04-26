@@ -1,0 +1,19 @@
+2024-03-25 08:58:25.873 [info] Getting Manifest... astro-build.astro-vscode
+2024-03-25 08:58:26.403 [info] Installing extension: astro-build.astro-vscode
+2024-03-25 08:58:32.485 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-25 08:58:32.491 [info] Extension signature verification is not done: astro-build.astro-vscode
+2024-03-25 08:58:32.730 [info] Extracted extension to file:///home/finn/.vscode-oss/extensions/astro-build.astro-vscode-2.8.4-linux-x64: astro-build.astro-vscode
+2024-03-25 08:58:32.733 [info] Renamed to /home/finn/.vscode-oss/extensions/astro-build.astro-vscode-2.8.4-linux-x64
+2024-03-25 08:58:32.735 [info] Extracting extension completed. astro-build.astro-vscode
+2024-03-25 08:58:32.742 [info] Extension installed successfully: astro-build.astro-vscode
+2024-03-25 08:58:32.822 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

@@ -1,0 +1,74 @@
+2024-03-22 14:26:03.886 [info] Default formatter is set to null for workspace /home/finn/Documents/Repos/stem
+2024-03-22 14:26:03.887 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at a.onDidWriteTerminalData (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:31441)
+	at new g (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:747407)
+	at t.resolveInstance (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008019)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009927
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2007793)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009927
+	at t.resolve (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2010190)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993753
+	at e._get (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993519)
+	at e.get (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1992231)
+	at e.dynamicValue (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2015295)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009416
+	at c (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008462)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009356
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008875
+	at Array.map (<anonymous>)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2008847
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2007793)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2009927
+	at t.resolve (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2010190)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993753
+	at e._get (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1993519)
+	at e.get (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:1992231)
+	at a.get (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:467094)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:388673
+	at async t.activateComponents (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:386960)
+	at async /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2903459
+	at async e (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2902991)
+	at async u.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+	at async u.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+	at async u.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)]
+2024-03-22 14:26:03.930 [info] Test server listening.
+2024-03-22 14:26:03.939 [info] Python interpreter path: /bin/python
+2024-03-22 14:26:04.289 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 390ms, has a falsy return value, Arg 1: <Uri:/home/finn/Documents/Repos/stem/sin-visualiser.py>, Arg 2: {"started":1711070763778}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+  	at T.activate (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+  	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)]
+]
+2024-03-22 14:26:04.289 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+	at T.activate (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)]
+2024-03-22 14:26:04.289 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+	at T.activate (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)]
+2024-03-22 14:26:04.474 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-22 14:26:04.474 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-22 14:26:06.056 [info] Starting Jedi language server for stem.
+2024-03-22 14:26:14.498 [info] Send text to terminal: /bin/python /home/finn/Documents/Repos/stem/sin-visualiser.py

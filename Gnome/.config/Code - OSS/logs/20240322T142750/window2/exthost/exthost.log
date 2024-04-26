@@ -1,0 +1,80 @@
+2024-03-25 08:56:59.006 [info] Extension host with pid 18535 started
+2024-03-25 08:56:59.019 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-25 08:56:59.021 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-03-25 08:56:59.030 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-03-25 08:56:59.032 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2024-03-25 08:56:59.146 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-25 08:56:59.164 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-25 08:56:59.188 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-03-25 08:56:59.235 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2024-03-25 08:56:59.238 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2024-03-25 08:56:59.238 [error] Error: Cannot find module '/home/finn/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/lib/code/out/vs/loader.js
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+	at node:internal/modules/cjs/loader:1084:15
+	at Function._resolveFilename (node:electron/js2c/utility_init:2:13406)
+	at node:internal/modules/cjs/loader:929:27
+	at Function.<anonymous> (node:electron/js2c/node_init:2:13357)
+	at h._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:5634)
+	at n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:29786)
+	at t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:135:35289)
+	at Module.require (node:internal/modules/cjs/loader:1150:19)
+	at require (node:internal/modules/cjs/helpers:121:18)
+	at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+	at w.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:30965)
+	at async Promise.all (index 0)
+2024-03-25 08:56:59.238 [info] Eager extensions activated
+2024-03-25 08:56:59.255 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:56:59.256 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:56:59.260 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:56:59.268 [info] ExtensionService#_doActivateExtension franneck94.vscode-rust-config, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:56:59.268 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:56:59.295 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:52.096 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-25 08:57:52.102 [info] Extension host with pid 18535 exiting with code 0
+2024-03-25 08:57:53.197 [info] Extension host with pid 19607 started
+2024-03-25 08:57:53.197 [info] Skipping acquiring lock for /home/finn/.config/Code - OSS/User/workspaceStorage/f5a1effa0e636ccaa97bea3c76ecac79.
+2024-03-25 08:57:53.299 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-25 08:57:53.302 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-03-25 08:57:53.309 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-03-25 08:57:53.311 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2024-03-25 08:57:53.313 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-03-25 08:57:53.361 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-25 08:57:53.377 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-25 08:57:53.382 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-03-25 08:57:53.444 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2024-03-25 08:57:53.446 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2024-03-25 08:57:53.446 [error] Error: Cannot find module '/home/finn/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/lib/code/out/vs/loader.js
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+	at node:internal/modules/cjs/loader:1084:15
+	at Function._resolveFilename (node:electron/js2c/utility_init:2:13406)
+	at node:internal/modules/cjs/loader:929:27
+	at Function.<anonymous> (node:electron/js2c/node_init:2:13357)
+	at h._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:5634)
+	at n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:29786)
+	at t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:135:35289)
+	at Module.require (node:internal/modules/cjs/loader:1150:19)
+	at require (node:internal/modules/cjs/helpers:121:18)
+	at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+	at w.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:30965)
+	at async Promise.all (index 0)
+2024-03-25 08:57:53.446 [info] Eager extensions activated
+2024-03-25 08:57:53.487 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:53.488 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:53.493 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:53.501 [info] ExtensionService#_doActivateExtension franneck94.vscode-rust-config, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:53.502 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:53.528 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 08:57:53.632 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-25 08:58:12.198 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2024-03-25 08:58:12.226 [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:typescript'
+2024-03-25 08:58:12.248 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-25 08:58:33.013 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'workspaceContains:astro.config.*'
+2024-03-25 08:58:33.916 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

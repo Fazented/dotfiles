@@ -1,0 +1,16 @@
+2024-03-22 14:27:50.931 [info] update#setState disabled
+2024-03-22 14:27:50.934 [info] update#ctor - updates are disabled as there is no update URL
+2024-03-23 00:06:44.542 [warning] No ptyHost heartbeat after 6 seconds
+2024-03-25 08:57:05.453 [info] Extension host with pid 2941 exited with code: 0, signal: unknown.
+2024-03-25 08:57:05.485 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-03-25 08:57:05.486 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2945]: crashed with code 15 and reason 'killed'
+2024-03-25 08:57:52.103 [info] Extension host with pid 18535 exited with code: 0, signal: unknown.
+2024-03-25 08:57:52.111 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-03-25 08:57:52.112 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 18534]: crashed with code 15 and reason 'killed'
+2024-03-25 09:01:22.271 [error] ptyHost terminated unexpectedly with code 15
+2024-03-25 09:01:22.272 [warning] [UtilityProcess type: ptyHost, pid: 9002]: unable to kill the process
+2024-03-25 09:01:22.358 [error] [UtilityProcess type: shared-process, pid: 2943]: crashed with code 15 and reason 'killed'
+2024-03-25 09:01:22.359 [info] Extension host with pid 19607 exited with code: 15, signal: unknown.
+2024-03-25 09:01:22.359 [error] [UtilityProcess id: 3, type: extensionHost, pid: 19607]: crashed with code 15 and reason 'killed'
+2024-03-25 09:01:22.361 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-03-25 09:01:22.361 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 19605]: crashed with code 15 and reason 'killed'

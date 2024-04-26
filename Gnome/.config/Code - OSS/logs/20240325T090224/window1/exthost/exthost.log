@@ -1,0 +1,231 @@
+2024-03-25 09:02:25.684 [info] Extension host with pid 5485 started
+2024-03-25 09:02:25.684 [info] Skipping acquiring lock for /home/finn/.config/Code - OSS/User/workspaceStorage/f5a1effa0e636ccaa97bea3c76ecac79.
+2024-03-25 09:02:25.806 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-25 09:02:25.813 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2024-03-25 09:02:25.846 [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:typescript'
+2024-03-25 09:02:26.082 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-25 09:02:26.085 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-03-25 09:02:26.100 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-03-25 09:02:26.104 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2024-03-25 09:02:26.109 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-03-25 09:02:26.171 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-25 09:02:26.198 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-25 09:02:26.218 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-03-25 09:02:26.286 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: true, activationEvent: 'workspaceContains:astro.config.*'
+2024-03-25 09:02:26.354 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2024-03-25 09:02:26.355 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2024-03-25 09:02:26.355 [error] Error: Cannot find module '/home/finn/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/lib/code/out/vs/loader.js
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+	at node:internal/modules/cjs/loader:1084:15
+	at Function._resolveFilename (node:electron/js2c/utility_init:2:13406)
+	at node:internal/modules/cjs/loader:929:27
+	at Function.<anonymous> (node:electron/js2c/node_init:2:13357)
+	at h._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:5634)
+	at n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:29786)
+	at t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:135:35289)
+	at Module.require (node:internal/modules/cjs/loader:1150:19)
+	at require (node:internal/modules/cjs/helpers:121:18)
+	at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+	at w.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:30965)
+	at async Promise.all (index 0)
+2024-03-25 09:02:26.626 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-25 09:02:27.311 [info] Eager extensions activated
+2024-03-25 09:02:27.315 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 09:02:27.316 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 09:02:27.321 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 09:02:27.329 [info] ExtensionService#_doActivateExtension franneck94.vscode-rust-config, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 09:02:27.330 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 09:02:27.359 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-25 09:04:56.363 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-25 09:20:17.267 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-25 09:21:37.191 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-25 09:21:53.087 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-25 09:22:01.291 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2024-03-25 09:24:30.739 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-03-25 09:24:31.216 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-03-25 09:51:51.715 [warning] vscode.json-language-features - Code actions of kind 'quickfix 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-25 10:30:11.108 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-03-25 10:43:57.904 [error] [vscode.typescript-language-features] provider FAILED
+2024-03-25 10:43:57.904 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getApplicableRefactors (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:184986:20)
+    at getApplicableRefactors (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183219:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:503003)
+	at v.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:496983)
+	at v.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495837)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495330)
+	at ChildProcess.emit (node:events:514:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-25 10:43:58.065 [error] [vscode.typescript-language-features] provider FAILED
+2024-03-25 10:43:58.065 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183735:20)
+    at encodedSemanticClassifications-full (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:503003)
+	at v.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:496983)
+	at v.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495837)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495330)
+	at ChildProcess.emit (node:events:514:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-25 10:43:58.902 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at IpcIOSession.getProjectInfoWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:184238:5)
+    at IpcIOSession.getProjectInfo (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:184228:17)
+    at projectInfo (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183172:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:503003)
+	at v.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:496983)
+	at v.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495837)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495330)
+	at ChildProcess.emit (node:events:514:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-25 10:43:59.067 [error] Error: <semantic> TypeScript Server Error (5.3.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at ConfiguredProject2.updateGraphWorker (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177374:11)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:177233:32)
+    at ConfiguredProject2.updateGraph (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178485:24)
+    at updateProjectIfDirty (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:178944:35)
+    at ConfiguredProject2.getLanguageService (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:176844:7)
+    at IpcIOSession.getEncodedSemanticClassifications (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183735:20)
+    at encodedSemanticClassifications-full (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:183038:43)
+    at /usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:69
+    at IpcIOSession.executeWithRequestId (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185369:14)
+    at IpcIOSession.executeCommand (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185377:29)
+    at IpcIOSession.onMessage (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:185419:51)
+    at process.<anonymous> (/usr/lib/code/extensions/node_modules/typescript/lib/tsserver.js:187001:14)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:503003)
+	at v.dispatchResponse (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:496983)
+	at v.dispatchMessage (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495837)
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/typescript-language-features/dist/extension.js:2:495330)
+	at ChildProcess.emit (node:events:514:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at emit (node:internal/child_process:937:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-25 11:00:15.981 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-25 11:00:16.028 [error] Canceled: Canceled
+	at new $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184300)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at f.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183062)
+	at l.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184839)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183831)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at w.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:943479)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:962791)
+	at /usr/lib/code/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:968811)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:945736)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at w.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at w.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:6374)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-25 11:00:16.029 [error] Canceled: Canceled
+	at new $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184300)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at f.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183062)
+	at l.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:184839)
+	at l.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183831)
+	at l.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:183738)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:21654)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/usr/lib/code/extensions/github/dist/extension.js:2:325214)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:326173
+	at w.value (/usr/lib/code/extensions/git/dist/main.js:2:1050811)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:962791)
+	at /usr/lib/code/extensions/git/dist/main.js:2:968825
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:968811)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3704)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:945736)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:148:3801)
+	at o (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at w.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:9882)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7816
+	at Array.map (<anonymous>)
+	at w.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:7803)
+	at w.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:8076)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:9949)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:6374)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-03-25 11:00:16.035 [info] Extension host with pid 5485 exiting with code 0

@@ -1,0 +1,24 @@
+2024-03-25 09:01:58.481 [info] Log level: Info
+2024-03-25 09:01:58.481 [info] Validating found git in: "git"
+2024-03-25 09:01:58.481 [info] Using git "2.44.0" from "git"
+2024-03-25 09:01:58.481 [info] > git rev-parse --show-toplevel [9ms]
+2024-03-25 09:01:58.505 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2024-03-25 09:01:58.518 [info] Open repository: /home/finn/Documents/Repos/personal-site
+2024-03-25 09:01:58.552 [info] > git rev-parse --show-toplevel [12ms]
+2024-03-25 09:01:58.553 [info] > git config --get commit.template [21ms]
+2024-03-25 09:01:58.581 [info] > git rev-parse --show-toplevel [16ms]
+2024-03-25 09:01:58.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-03-25 09:01:58.606 [warning] ENOENT: no such file or directory, open '/home/finn/Documents/Repos/personal-site/.git/refs/remotes/origin/main'
+2024-03-25 09:01:58.607 [info] > git rev-parse --show-toplevel [12ms]
+2024-03-25 09:01:58.608 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-25 09:01:58.642 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-25 09:01:58.670 [info] > git status -z -uall [48ms]
+2024-03-25 09:01:58.709 [info] > git config --get commit.template [4ms]
+2024-03-25 09:01:58.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-03-25 09:01:58.784 [warning] ENOENT: no such file or directory, open '/home/finn/Documents/Repos/personal-site/.git/refs/remotes/origin/main'
+2024-03-25 09:01:58.788 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-03-25 09:01:58.826 [info] > git status -z -uall [17ms]
+2024-03-25 09:01:58.946 [info] > git show --textconv :src/content/config.ts [15ms]
+2024-03-25 09:01:58.948 [info] > git ls-files --stage -- /home/finn/Documents/Repos/personal-site/src/content/config.ts [3ms]
+2024-03-25 09:01:58.965 [info] > git cat-file -s 049465c9f819dbc4bd57ef63b8a86650c0569971 [2ms]
+2024-03-25 09:01:59.067 [info] > git check-ignore -v -z --stdin [1ms]

@@ -1,0 +1,33 @@
+2024-04-03 13:12:26.652 [info] Log level: Info
+2024-04-03 13:12:26.652 [info] Validating found git in: "git"
+2024-04-03 13:12:26.652 [info] Using git "2.44.0" from "git"
+2024-04-03 13:12:26.652 [info] > git rev-parse --show-toplevel [6ms]
+2024-04-03 13:12:26.652 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-03 13:12:26.652 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-03 13:12:26.652 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-03 13:12:26.957 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-03 13:12:26.957 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-04-03 13:13:01.668 [info] Log level: Info
+2024-04-03 13:13:01.668 [info] Validating found git in: "git"
+2024-04-03 13:13:01.668 [info] Using git "2.44.0" from "git"
+2024-04-03 13:13:01.668 [info] > git rev-parse --show-toplevel [6ms]
+2024-04-03 13:13:01.668 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-04-03 13:13:01.668 [info] Open repository: /home/finn/Documents/Repos/personal-site
+2024-04-03 13:13:01.668 [info] > git rev-parse --show-toplevel [19ms]
+2024-04-03 13:13:01.668 [info] > git config --get commit.template [39ms]
+2024-04-03 13:13:01.670 [info] > git rev-parse --show-toplevel [25ms]
+2024-04-03 13:13:01.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [27ms]
+2024-04-03 13:13:01.696 [info] > git rev-parse --show-toplevel [6ms]
+2024-04-03 13:13:01.738 [info] > git rev-parse --show-toplevel [24ms]
+2024-04-03 13:13:01.761 [info] > git status -z -uall [26ms]
+2024-04-03 13:13:01.809 [info] > git rev-parse --show-toplevel [50ms]
+2024-04-03 13:13:01.812 [info] > git config --get commit.template [4ms]
+2024-04-03 13:13:01.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [4ms]
+2024-04-03 13:13:01.860 [info] > git status -z -uall [5ms]
+2024-04-03 13:13:03.028 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-03 13:13:17.532 [info] > git show --textconv :src/pages/work.astro [19ms]
+2024-04-03 13:13:17.534 [info] > git ls-files --stage -- /home/finn/Documents/Repos/personal-site/src/pages/work.astro [4ms]
+2024-04-03 13:13:17.553 [info] > git cat-file -s e618f1a1674ec587811eb2cbcf8d5c6ed7fb22cc [2ms]

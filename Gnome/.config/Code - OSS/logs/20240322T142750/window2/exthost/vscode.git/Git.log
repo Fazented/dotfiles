@@ -1,0 +1,39 @@
+2024-03-25 08:56:59.240 [info] Log level: Info
+2024-03-25 08:56:59.240 [info] Validating found git in: "git"
+2024-03-25 08:56:59.240 [info] Using git "2.44.0" from "git"
+2024-03-25 08:57:53.447 [info] Log level: Info
+2024-03-25 08:57:53.447 [info] Validating found git in: "git"
+2024-03-25 08:57:53.447 [info] Using git "2.44.0" from "git"
+2024-03-25 08:57:53.447 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-25 08:57:53.457 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-25 08:57:53.464 [info] Open repository: /home/finn/Documents/Repos/personal-site
+2024-03-25 08:57:53.534 [info] > git rev-parse --show-toplevel [48ms]
+2024-03-25 08:57:53.534 [info] > git config --get commit.template [57ms]
+2024-03-25 08:57:53.575 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-25 08:57:53.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-03-25 08:57:53.591 [warning] ENOENT: no such file or directory, open '/home/finn/Documents/Repos/personal-site/.git/refs/remotes/origin/main'
+2024-03-25 08:57:53.591 [info] > git rev-parse --show-toplevel [8ms]
+2024-03-25 08:57:53.592 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-03-25 08:57:53.611 [info] > git status -z -uall [12ms]
+2024-03-25 08:57:53.626 [info] > git config --get commit.template [2ms]
+2024-03-25 08:57:53.646 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-03-25 08:57:53.654 [warning] ENOENT: no such file or directory, open '/home/finn/Documents/Repos/personal-site/.git/refs/remotes/origin/main'
+2024-03-25 08:57:53.656 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-03-25 08:57:53.708 [info] > git status -z -uall [46ms]
+2024-03-25 08:57:54.046 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-25 08:57:54.560 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-25 08:57:55.495 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-25 08:57:56.599 [info] > git check-ignore -v -z --stdin [0ms]
+2024-03-25 08:57:57.773 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-25 08:57:59.511 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-25 08:58:00.824 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-25 08:58:07.370 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-25 08:58:09.374 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-25 08:58:10.660 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-25 08:58:12.475 [info] > git show --textconv :src/content/config.ts [12ms]
+2024-03-25 08:58:12.479 [info] > git ls-files --stage -- /home/finn/Documents/Repos/personal-site/src/content/config.ts [5ms]
+2024-03-25 08:58:12.495 [info] > git cat-file -s 049465c9f819dbc4bd57ef63b8a86650c0569971 [2ms]
+2024-03-25 08:58:14.632 [info] > git check-ignore -v -z --stdin [0ms]
+2024-03-25 08:58:32.993 [info] > git show --textconv :src/content/config.ts [14ms]
+2024-03-25 08:58:32.995 [info] > git ls-files --stage -- /home/finn/Documents/Repos/personal-site/src/content/config.ts [2ms]
+2024-03-25 08:58:33.012 [info] > git cat-file -s 049465c9f819dbc4bd57ef63b8a86650c0569971 [1ms]

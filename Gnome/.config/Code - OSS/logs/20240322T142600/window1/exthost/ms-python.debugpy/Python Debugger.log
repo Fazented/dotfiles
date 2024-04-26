@@ -1,0 +1,15 @@
+2024-03-22 14:26:03.806 [info] Name: Python Debugger
+2024-03-22 14:26:03.806 [info] Module: debugpy
+2024-03-22 14:26:03.806 [error] sendDebugpySuccessActivationTelemetry() failed. [Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at Object.registerPortAttributesProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:40703)
+	at t.registerDebugger (/home/finn/.vscode-oss/extensions/ms-python.debugpy-2024.2.0-linux-x64/dist/extension.js:2:873522)
+	at e.activate (/home/finn/.vscode-oss/extensions/ms-python.debugpy-2024.2.0-linux-x64/dist/extension.js:2:1120761)
+	at j.ib (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:13251)
+	at j.hb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:12964)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:11089
+	at async u.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6255)
+	at async u.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6218)
+	at async u.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:5675)]

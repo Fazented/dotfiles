@@ -1,0 +1,60 @@
+2024-03-27 09:38:41.862 [info] Getting Manifest... astro-build.astro-vscode
+2024-03-27 09:38:41.868 [info] Getting Manifest... ms-dotnettools.vscode-dotnet-runtime
+2024-03-27 09:38:41.870 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-03-27 09:38:43.769 [info] Installing extension: astro-build.astro-vscode
+2024-03-27 09:38:43.792 [info] Installing extension: ms-dotnettools.vscode-dotnet-runtime
+2024-03-27 09:38:44.392 [info] Installing extension: rust-lang.rust-analyzer
+2024-03-27 09:38:52.483 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-27 09:38:52.498 [info] Extension signature verification is not done: astro-build.astro-vscode
+2024-03-27 09:38:53.440 [info] Extracted extension to file:///home/finn/.vscode-oss/extensions/astro-build.astro-vscode-2.8.5-linux-x64: astro-build.astro-vscode
+2024-03-27 09:38:53.452 [info] Renamed to /home/finn/.vscode-oss/extensions/astro-build.astro-vscode-2.8.5-linux-x64
+2024-03-27 09:38:53.457 [info] Extracting extension completed. astro-build.astro-vscode
+2024-03-27 09:38:53.480 [info] Extension installed successfully: astro-build.astro-vscode
+2024-03-27 09:38:53.487 [info] Marked extension as uninstalled astro-build.astro-vscode-2.8.4-linux-x64
+2024-03-27 09:38:53.552 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-27 09:39:16.329 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-27 09:39:16.330 [info] Extension signature verification is not done: ms-dotnettools.vscode-dotnet-runtime
+2024-03-27 09:39:16.481 [info] Extracted extension to file:///home/finn/.vscode-oss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.0.3-universal: ms-dotnettools.vscode-dotnet-runtime
+2024-03-27 09:39:16.492 [info] Renamed to /home/finn/.vscode-oss/extensions/ms-dotnettools.vscode-dotnet-runtime-2.0.3-universal
+2024-03-27 09:39:16.495 [info] Extracting extension completed. ms-dotnettools.vscode-dotnet-runtime
+2024-03-27 09:39:16.514 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-03-27 09:39:16.518 [info] Extension installed successfully: ms-dotnettools.vscode-dotnet-runtime
+2024-03-27 09:39:16.523 [info] Marked extension as uninstalled ms-dotnettools.vscode-dotnet-runtime-2.0.2-universal
+2024-03-27 09:39:25.071 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+2024-03-27 09:39:25.073 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2024-03-27 09:39:26.267 [info] Extracted extension to file:///home/finn/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1896-linux-x64: rust-lang.rust-analyzer
+2024-03-27 09:39:26.281 [info] Renamed to /home/finn/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1896-linux-x64
+2024-03-27 09:39:26.286 [info] Extracting extension completed. rust-lang.rust-analyzer
+2024-03-27 09:39:26.310 [info] Extension installed successfully: rust-lang.rust-analyzer
+2024-03-27 09:39:26.317 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1885-linux-x64
+2024-03-27 09:39:26.381 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/finn/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

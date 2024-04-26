@@ -1,0 +1,48 @@
+2024-03-22 12:53:33.915 [info] Extension host with pid 108787 started
+2024-03-22 12:53:33.915 [info] Skipping acquiring lock for /home/finn/.config/Code - OSS/User/workspaceStorage/166d22b29117a39330d8a0df3818b131.
+2024-03-22 12:53:34.019 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-22 12:53:34.040 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-03-22 12:53:34.088 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-03-22 12:53:34.376 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-22 12:53:34.380 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-03-22 12:53:34.413 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2024-03-22 12:53:34.420 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2024-03-22 12:53:34.558 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-22 12:53:34.606 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-22 12:53:34.624 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2024-03-22 12:53:34.873 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2024-03-22 12:53:34.875 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2024-03-22 12:53:34.875 [error] Error: Cannot find module '/home/finn/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/lib/code/out/vs/loader.js
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+- 
+	at node:internal/modules/cjs/loader:1084:15
+	at Function._resolveFilename (node:electron/js2c/utility_init:2:13406)
+	at node:internal/modules/cjs/loader:929:27
+	at Function.<anonymous> (node:electron/js2c/node_init:2:13357)
+	at h._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:5634)
+	at n._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:29786)
+	at t._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:135:35289)
+	at Module.require (node:internal/modules/cjs/loader:1150:19)
+	at require (node:internal/modules/cjs/helpers:121:18)
+	at Function.i [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:98)
+	at w.vb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:30965)
+	at async Promise.all (index 0)
+2024-03-22 12:53:34.876 [info] Eager extensions activated
+2024-03-22 12:53:34.986 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 12:53:34.990 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 12:53:35.003 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 12:53:35.025 [info] ExtensionService#_doActivateExtension franneck94.vscode-rust-config, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 12:53:35.029 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 12:53:35.117 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 12:53:35.750 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51400)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:24146)
+	at T.activate (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:776051)
+	at /home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2460
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/finn/.vscode-oss/extensions/ms-python.python-2024.2.1-universal/out/client/extension.js:2:2450)
